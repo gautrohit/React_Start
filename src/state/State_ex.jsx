@@ -6,6 +6,7 @@ class Student extends React.Component {
     age: '56',
     gender: this.props.gender
   };
+  
   render() {
     return (
       <h2>

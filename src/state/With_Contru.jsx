@@ -9,6 +9,7 @@ class Employee extends React.Component {
       gender: this.props.gender
     };
   }
+  
   render() {
     return (
       <>
