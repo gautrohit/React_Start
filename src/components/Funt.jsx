@@ -4,7 +4,7 @@ import React from 'react';
 //   return <h1>Function Component Here!!!</h1>;
 // }
 
-const Funt = props => {
+let Funt = props => {
   return <h3> function type !! :>{props.children}</h3>;
 };
 

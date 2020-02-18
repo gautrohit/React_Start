@@ -10,7 +10,8 @@ class App extends Component {
     return (
       <>
         <h1>Hello App.js here *** React!!</h1>
-        <Cls>{'Roll number:' + 201}</Cls>
+        <Cls>{"rollll:::" }</Cls>
+        <Cls age={56}></Cls>
         <Funt>{'roll no -' + 101}</Funt>
         <h3>*************---State---*****************</h3>
         <Student gender="Male"></Student>
