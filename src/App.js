@@ -19,7 +19,7 @@ class App extends Component {
         <Student gender="Male"></Student>
         <Employee></Employee>
         <h3>*************---setState---*****************</h3>
-        <StudentSet></StudentSet>
+        <StudentSet age={12}></StudentSet>
         <h3>*************---Event Handling Class---*****************</h3>
         <Doctor></Doctor>
         <h3>*************---Event Handling Function---*****************</h3>
