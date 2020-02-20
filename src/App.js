@@ -8,7 +8,22 @@ import Doctor2 from './eventHandling/EventFunction';
 import StudentSet from './state/SetState';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    console.log('I_am_in_Constructor');
+  }
+
+  static getDerivedStateFromProps(props, state) {
+    console.log('I_am_in_getDerivedStateFromProps');
+    console.log(props, state);
+  }
+
+  componentDidMount() {
+    console.log('I_am_in_componentDidMount');
+  }
+
   render() {
+    console.log('I_am_in_render');
     return (
       <>
         <h1>Hello App.js here *** React!!</h1>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Doctor2() {
+let Doctor2 = () => {
   let handleClick = e => {
     e.preventDefault();
     alert('Button Clicked');
@@ -14,5 +14,5 @@ function Doctor2() {
       </a>
     </div>
   );
-}
+};
 export default Doctor2;
