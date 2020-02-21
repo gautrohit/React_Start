@@ -6,6 +6,10 @@ import Employee from './state/With_Contru';
 import Doctor from './eventHandling/EventClass';
 import Doctor2 from './eventHandling/EventFunction';
 import StudentSet from './state/SetState';
+import { Monday, Tuesday, MultiComp} from './components/MultipleClass';
+import HOC from './components/HOC';
+import HOC2 from './components/HOC2';
+
 
 class App extends Component {
   constructor(props) {
@@ -39,6 +43,12 @@ class App extends Component {
         <Doctor></Doctor>
         <h3>*************---Event Handling Function---*****************</h3>
         <Doctor2 name="Event function"></Doctor2>
+        <Monday time={"6:30"}></Monday>
+        <Tuesday></Tuesday>
+        <MultiComp></MultiComp>
+        <HOC></HOC>
+        <br></br>
+        <HOC2></HOC2>
       </>
     );
   }

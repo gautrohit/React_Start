@@ -14,6 +14,7 @@ class StudentSet extends React.Component {
   handleClick = () => {
     // with objects
     this.setState({
+    
       brand: 'Maruti',
       model: 2020,
       age:20,
